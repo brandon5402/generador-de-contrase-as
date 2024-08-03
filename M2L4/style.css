@@ -1,0 +1,33 @@
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+
+    25% {
+        color:rgb(255, 0, 255)
+    }
+
+    50% {
+      color: red;
+    }
+    
+    75% {
+        color:rgb(255, 255, 0)
+    }
+
+    100% {
+      color: rgb(0, 255, 0);
+    }
+}
+
+h1 {
+    animation: color-change 5000ms infinite;
+}
+
+iframe {
+    margin: 10px;
+}
+
+div {
+    margin: 10px;
+}
