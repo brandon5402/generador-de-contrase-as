@@ -5,11 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/css/style.css">
     <title>resultados del formulario</title>
 </head>
 <body>
     {%block content%}
-    <h1>Gracias por rellenar el formulario</h1>
-    <img src='https://us.rule34.xxx//samples/1151/sample_d357ea11c1d1c075f32b933a3c2b92b8.jpg?10786197'>
+    <h1 class ='formResultTitle'>Gracias por rellenar el formulario</h1>
+    <p class ='formResult'>nombre : {{name}}</p>
+    <p class ='formResult'>email : {{email}}</p>
+    <p class ='formResult'>direccion : {{address}}</p>
+    <p class ='formResult'>fecha : {{date}}</p>
+    {%endblock%}
 </body>
 </html>
